@@ -11,7 +11,7 @@ namespace Tyuiu.KomarovaMV.Sprint6.Task1.V9.Lib
             for (int i = startValue; i <= stopValue; i++)
             {
                 result[c] = Math.Round((2 * (double)i - 4 + ((2 * (double)i - 1) / (Math.Sin(i) + 1))), 2);
-                if (i == 0) { result[c] = 0; }
+                if (Math.Sin(i) + 1 == 0) { result[c] = 0; }
                 c++;
             }
             return result;
