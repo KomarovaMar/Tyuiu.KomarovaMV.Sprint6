@@ -10,8 +10,8 @@ namespace Tyuiu.KomarovaMV.Sprint6.Task4.V4.Lib
             double[] result = new double[len];
             for (int i = startValue; i <= stopValue; i++)
             {
-                result[c] = Math.Round((2*(double)i-6)/(Math.Sin(i)+i)-3, 2);
-                if (Math.Sin(i) + i == 0) { result[c] = 0; }
+                result[c] = Math.Round(((2*(double)i+6)/(Math.Cos(i)+i))-3, 2);
+                if (Math.Cos(i) + i == 0) { result[c] = 0; }
                 c++;
             }
             return result;
