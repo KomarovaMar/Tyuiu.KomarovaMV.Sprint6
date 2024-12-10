@@ -10,7 +10,7 @@ namespace Tyuiu.KomarovaMV.Sprint6.Task6.V24.Test
             DataService ds = new DataService();
             string path = @"C:\Users\PC\Documents\InPutDataFileTask6V24.txt";
             string res = ds.CollectTextFromFile(path);
-            Assert.AreEqual(res, "EovFJVudRgdWKwQBrOMEwyq");
+            Assert.AreEqual(res, "EovFJ Vud RgdW KwQBrOM Ewyq");
         }
     }
 }

@@ -11,10 +11,12 @@ namespace Tyuiu.KomarovaMV.Sprint6.Task6.V24.Lib
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
-                    res = res + (line.Split(' ')[0]);
+                    res = res+ (line.Split(' ')[0])+" ";
                 }
             }
-            return res;
+            
+            string result=res.TrimEnd(' ');
+            return result;
         }
     }
 }
